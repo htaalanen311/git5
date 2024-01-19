@@ -1,0 +1,39 @@
+body {
+  background-color: white;
+  color: black;
+  margin: 1rem;
+  font-family: monospace;
+  font-size: 1rem;
+}
+.console-input {
+  position: relative;
+  display: block;
+  margin: 1rem 0 0 0;
+  color: #0f0;
+}
+.body-csl {
+  color: black;
+}
+.tilde-csl {
+  color: cyan;
+}
+
+.console-path {
+  display: inline;
+  position: relative;
+  padding-right: 1rem;
+}
+
+.blinking-cursor {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  width: .5rem;
+  height: 1rem;
+  background-color: black;
+  animation: blinker 1s infinite;
+}
+@keyframes blinker {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

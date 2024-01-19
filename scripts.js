@@ -1,0 +1,1 @@
+document.getElementById("random").innerHTML = Math.round(Math.random()*100000);
